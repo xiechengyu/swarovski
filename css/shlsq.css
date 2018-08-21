@@ -1,0 +1,258 @@
+.html {
+  height: 100%;
+  font-size: 100px;
+}
+html,
+body,
+section,
+div,
+span,
+input,
+ul,
+h3,
+h2,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.section2{
+  position: relative;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+.newArrive {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.nA1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.nA1 p {
+  align-self: center;
+  width: 35%;
+  font-size: .7rem;
+  text-align: center;
+  color: #7c7c7c;
+  padding: .3rem 0;
+  border-bottom: 1px solid  #c2c2c2;
+  margin-bottom: .4rem;
+}
+.nA1 div {
+  position: relative;
+  overflow: hidden;
+  height: 20rem;
+}
+.nA1 div ul {
+  position: absolute;
+  display: flex;
+}
+.nA1 div ul li a {
+  display: flex;
+  flex-direction: column;
+  width: 14.2rem;
+  height: 18rem;
+  color: #1a064e;
+}
+.nA1 div ul li a img {
+  width: 11.5rem;
+  margin: 0 auto;
+}
+.nA1 div ul li a div {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+}
+.nA1 div ul li a div span {
+  align-self: center;
+  font-size: .7rem;
+}
+.nA1 div ul li a div h3 {
+  padding: .5rem 0;
+  align-self: center;
+  text-align: center;
+  font-size: .9rem;
+}
+.nAu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.nAu img {
+  width: 100%;
+}
+.nAu div {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1.1rem 0;
+}
+.nAu div h1 {
+  align-self: center;
+  font-size: 1.5rem;
+}
+.nAu div h3 {
+  align-self: center;
+  padding: .7rem;
+  text-align: center;
+  font-size: .9rem;
+}
+.nAu div button {
+  align-self: center;
+  width: 6.5rem;
+  height: 3rem;
+  border: 1px solid #000;
+  margin-top: .4rem;
+  color: #fff;
+  background-color: #000;
+}
+.aboutSHLSQ {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  padding: 0 .8rem;
+  margin: 40px auto;
+}
+.aboutSHLSQ h3 {
+  align-self: center;
+}
+.aboutSHLSQ p {
+  margin: .9rem 1rem;
+  text-align: center;
+  font-size: .92rem;
+}
+.aboutSHLSQ .aboutActive {
+  display: none;
+}
+.aboutSHLSQ .aboutMore {
+  display: flex;
+  flex-direction: column;
+}
+.aboutSHLSQ .aboutMore div {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.aboutSHLSQ .aboutMore div hr {
+  width: 6rem;
+  height: 1px;
+  border: 0;
+  background-color: #000;
+}
+.aboutSHLSQ .aboutMore div span {
+  margin: 0 1rem;
+  font-weight: normal;
+}
+.aboutSHLSQ .aboutMore span {
+  align-self: center;
+  margin-top: .5rem;
+  font-size: .8rem;
+}
+.infocon {
+  display: flex;
+  flex-direction: column;
+  padding: 2.2rem 2rem;
+}
+.infoQ {
+  margin-top: 20px;
+}
+.infoQ .participateUs {
+  display: flex;
+  flex-direction: column;
+  padding: 2.2rem 2rem;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+.infoQ .participateUs span {
+  align-self: center;
+  font-size: .7rem;
+}
+.infoQ .participateUs div {
+  align-self: center;
+  margin-top: 1.2rem;
+}
+.infoQ .participateUs div span {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+.infoQ .subscription {
+  display: flex;
+  flex-direction: column;
+  padding: 2.2rem 2rem 2.5rem 2rem;
+}
+.infoQ .subscription span {
+  align-self: center;
+  font-size: .7rem;
+}
+.infoQ .subscription div {
+  align-self: center;
+  display: flex;
+  margin-top: 1.2rem;
+  font-size: 0;
+}
+.infoQ .subscription div input {
+  width: 10rem;
+  height: 2.1rem;
+  border: 1px solid #d8d8d8;
+  padding: .2rem .5rem;
+}
+.infoQ .subscription div button {
+  width: 8rem;
+  height: 2.6rem;
+  border: 0;
+  color: #fff;
+  background-color: #000;
+}
+.infoQ .contactUs {
+  display: flex;
+  flex-direction: column;
+  padding: 1.4rem 2rem;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+.infoQ .contactUs div {
+  display: flex;
+  padding: .9rem 0;
+}
+.infoQ .contactUs div span {
+  margin-right: 1rem;
+  font-size: .8rem;
+}
+.infoQ .contactUs div .fa {
+  font-size: 1.2rem;
+}
+.scrollTop {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3.3rem;
+  color: #fff;
+  background-color: #838383;
+}
+.scrollTop span {
+  font-size: 2rem;
+}
